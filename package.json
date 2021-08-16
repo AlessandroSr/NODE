@@ -1,4 +1,18 @@
 {
+  "name":"search-file-cli",
+  "version": "1.0.0",
+  "description": "Exemplo de CLI para Procuar Arquivos em uma pasta",
+  "preferGlobal": true,
+  "bin": {
+    "search-file": "./bin/search-file-cli"
+  },
+  "files": [
+    "./bin"
+  ],
+  "keywords": [],
+  "author": "Alessandro Ramos",
+  "license": "MIT",
+
   "dependencies": {
     "express": "^4.17.1"
   }
